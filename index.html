@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="navigation">
         <img class="logo" src="assets/images/elephant.svg" alt="Elephant Savings">
       <ul>
         <li><img class="menu" src="assets/images/dashboard.svg" alt="Dashboard"></li>
@@ -19,37 +19,57 @@
   <main>
     <h1>Balancing Act</h1>
     <h3>Welcome, Oscar!</h3>
-
-    <ul>
-      <li>Income  $2,119.12</li>
-      <li>Expenses  $420.54</li>
-      <li>Credit Score  673</li>
-    </ul>
+      <section>
+        <ul>
+          <li>Income</li>
+          <li>$2,119.12</li>
+        </section>
+      <section>
+        <ul>
+          <li>Expenses</li>
+          <li>$420.54</li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>Credit Score</li>
+          <li>673</li>
+        </ul>
+      </section>
+<!-- <br> -->
+  <section class="accounts">
     <h2>Accounts</h2>
     <button>Manage Accounts</button>
     <table>
       <tr>
-        <td><img class="accounts" src="assets/images/checking.svg" alt="Checking"></td>
+        <td><img class="accountimage" src="assets/images/checking.svg" alt="Checking"></td>
         <td>Wells Fargo</td>
         <td>Checking</td>
       </tr>
+    </table>
+    <table>
       <tr>
-        <td><img class="accounts" src="assets/images/savings.svg" alt="Savings"></td>
+        <td><img class="accountimage" src="assets/images/savings.svg" alt="Savings"></td>
         <td>Wells Fargo</td>
         <td>Savings</td>
       </tr>
+    </table>
+    <table>
       <tr>
-        <td><img class="accounts" src="assets/images/credit-card.svg" alt="Credit Card"></td>
+        <td><img class="accountimage" src="assets/images/credit-card.svg" alt="Credit Card"></td>
         <td>Amazon Credit</td>
         <td>Credit Card</td>
       </tr>
+    </table>
+    <table>
       <tr>
-        <td><img class="accounts" src="assets/images/credit-card.svg" alt="Credit Card"></td>
+        <td><img class="accountimage" src="assets/images/credit-card.svg" alt="Credit Card"></td>
         <td>Southwest Credit</td>
         <td>Credit Card</td>
     </tr>
     </table>
-
+  </section>
+  <section class="transactions">
   <h2>Recent Transactions</h2>
   <button>New Transaction</button>
   <table>
@@ -114,10 +134,5 @@
       <td>$6.00</td>
     </tr>
   </table>
-
-  </main>
-  <footer>
-  </footer>
-    <script src="js/scripts.js"></script>
-</body>
+  </section>
 </html>

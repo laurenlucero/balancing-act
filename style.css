@@ -1,15 +1,57 @@
+h1, h2, h3, ul, table, button, section, .navigation, .accounts, .transactions {
+  border: solid;
+}
+
 .logo {
-  width: 10%;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 200px;
 }
 
 .menu {
-  width: 6%;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.accountimage {
+  width: 20%;
+}
+
+.navigation {
+ display: inline-block;
+ position: absolute;
+ height: 100%;
+ width: 90px;
 }
 
 .accounts {
-  width: 6%;
+
 }
 
-nav {
-  float: left;
+.transactions {
+  display: inline-block;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  width: 400px;
+}
+
+main {
+  margin-left: 120px;
+}
+
+section {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  display: inline-block;
 }
