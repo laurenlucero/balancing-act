@@ -11,17 +11,18 @@ h1, h2, h3, ul, table, button, section, .navigation, .accounts, .transactions {
 .menu {
   width: 50%;
   margin-bottom: 10px;
-}
-
-.accountimage {
-  width: 20%;
+  margin-left: 10px;
 }
 
 .navigation {
  display: inline-block;
  position: absolute;
  height: 100%;
- width: 90px;
+ width: 80px;
+}
+
+.accountimage {
+  width: 20%;
 }
 
 .accounts {
@@ -36,14 +37,16 @@ h1, h2, h3, ul, table, button, section, .navigation, .accounts, .transactions {
   width: 400px;
 }
 
+.payee {
+  padding-right: 55px;
+}
+
 main {
   margin-left: 120px;
 }
 
-section {
+h1, h2 {
   display: inline-block;
-  margin: 10px;
-  padding: 5px;
 }
 
 ul {
@@ -52,6 +55,16 @@ ul {
   padding: 0;
 }
 
-h1, h2 {
+section {
   display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding-right: 15px;
 }
