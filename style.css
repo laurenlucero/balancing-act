@@ -1,11 +1,11 @@
-h1, h2, h3, ul, table, button, section, .navigation, .accounts, .transactions {
+h1, h2, h3, img, ul, table, td, button, section, .navigation, .accounts, .transactions {
   border: solid;
 }
 
 .logo {
-  width: 75%;
-  margin-top: 10px;
-  margin-bottom: 200px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 150px;
 }
 
 .menu {
@@ -18,15 +18,22 @@ h1, h2, h3, ul, table, button, section, .navigation, .accounts, .transactions {
  display: inline-block;
  position: absolute;
  height: 100%;
- width: 80px;
+ width: 75px;
 }
 
 .accountimage {
-  width: 20%;
+  width: 25px;
+  margin: auto;
 }
 
-.accounts {
+.accountname {
+  width: 120px;
+  margin: auto;
+}
 
+.manage {
+  position: relative;
+  left: 90px;
 }
 
 .transactions {
@@ -37,8 +44,18 @@ h1, h2, h3, ul, table, button, section, .navigation, .accounts, .transactions {
   width: 400px;
 }
 
+.new {
+  position: relative;
+  left: 75px;
+}
 .payee {
   padding-right: 55px;
+}
+
+body {
+  font-family: 'Biryani', sans-serif;
+  font-color: #363636;
+  background: #F5F5F5;
 }
 
 main {
@@ -47,6 +64,14 @@ main {
 
 h1, h2 {
   display: inline-block;
+}
+
+h3 {
+  padding: 25px;
+}
+
+button {
+  background-color: #1CA3BA;
 }
 
 ul {
