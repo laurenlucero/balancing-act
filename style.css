@@ -1,77 +1,42 @@
-h1, h2, h3, img, ul, table, td, button, section, .navigation, .accounts, .transactions {
-  border: solid;
-}
-
-.logo {
-  width: 80%;
-  margin-top: 5px;
-  margin-bottom: 150px;
-}
-
-.menu {
-  width: 50%;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
-.navigation {
- display: inline-block;
- position: absolute;
- height: 100%;
- width: 75px;
-}
-
-.accountimage {
-  width: 25px;
-  margin: auto;
-}
-
-.accountname {
-  width: 120px;
-  margin: auto;
-}
-
-.manage {
-  position: relative;
-  left: 90px;
-}
-
-.transactions {
-  display: inline-block;
-  position: absolute;
-  left: 500px;
-  top: 100px;
-  width: 400px;
-}
-
-.new {
-  position: relative;
-  left: 75px;
-}
-.payee {
-  padding-right: 55px;
-}
-
 body {
   font-family: 'Biryani', sans-serif;
   font-color: #363636;
-  background: #F5F5F5;
+  background-color: #F5F5F5;
 }
 
 main {
-  margin-left: 120px;
+  margin-left: 110px;
 }
 
 h1, h2 {
   display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0;
 }
 
 h3 {
+  background-image: linear-gradient(#8ED1DC, #E3F4F6);
+  display: inline-block;
   padding: 25px;
+  width: 445px;
+}
+
+input {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  width: 10px;
+}
+
+section {
+  width: 500px;
 }
 
 button {
   background-color: #1CA3BA;
+  border-radius: 15px;
+  padding: 10px;
+  width: 150px
 }
 
 ul {
@@ -80,16 +45,91 @@ ul {
   padding: 0;
 }
 
-section {
-  display: inline-block;
-  margin: 10px;
-  padding: 5px;
+table {
+  background-color: white;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  border-radius: 5px;
+  border-spacing: 0px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 500px;
 }
 
-th {
+th, td {
   text-align: left;
+  border-bottom: 1px solid #CCCCCC;
 }
 
-td {
-  padding-right: 15px;
+.logo {
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 200px;
+}
+
+.menu {
+  width: 50%;
+  margin: 8px;
+}
+
+.navigation {
+ background-color: white;
+ box-shadow: 1px 1px rgba(0,0,0,0.05);
+ display: inline-block;
+ position: absolute;
+ height: 100%;
+ width: 75px;
+}
+
+.welcome {
+  position: relative;
+}
+
+.info {
+  background-color: white;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  display: inline-block;
+  width: 125px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.infotitle {
+  font-size: 10px;
+}
+
+.accounts {
+ border: none;
+ width: 80px;
+}
+
+.accountimage {
+  width: 25px;
+  margin: 10px;
+}
+
+.manage {
+  display: inline-block;
+  position: relative;
+  left: 330px;
+  bottom: 40px;
+}
+
+.transactions {
+  background-color: white;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  display: inline-block;
+  position: absolute;
+  left: 700px;
+  top: 125px;
+  width: 500px;
+}
+
+.new {
+  position: relative;
+  left: 80px;
+}
+
+.payee {
+  padding-right: 60px;
 }

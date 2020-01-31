@@ -19,60 +19,63 @@
   </header>
   <main>
     <h1>Balancing Act</h1>
-    <h3>Welcome, Oscar!</h3>
-      <section>
+    <section class="welcome">
+      <h3>Welcome, Oscar!</h3>
+      <input class="close" type="image" src="assets/images/close.svg">
+    </section>
+      <section class="info">
         <ul>
-          <li>Income</li>
+          <li class="infotitle">INCOME</li>
           <li>$2,119.12</li>
         </section>
-      <section>
+      <section class="info">
         <ul>
-          <li>Expenses</li>
+          <li class="infotitle">EXPENSES</li>
           <li>$420.54</li>
         </ul>
       </section>
-      <section>
+      <section class="info">
         <ul>
-          <li>Credit Score</li>
+          <li class="infotitle">CREDIT SCORE</li>
           <li>673</li>
         </ul>
       </section>
-  <section>
+  <section class="accounts">
     <h2>Accounts</h2>
-    <button class="manage">Manage Accounts</button>
+    <button class="manage">MANAGE ACCOUNTS</button>
     <table>
       <tr>
-        <td><img class="accountimage" src="assets/images/checking.svg" alt="Checking"></td>
-        <td class="accountname">Wells Fargo</td>
-        <td>Checking</td>
+        <td class="accounts"><img class="accountimage" src="assets/images/checking.svg" alt="Checking"></td>
+        <td class="accounts">Wells Fargo</td>
+        <td class="accounts">Checking</td>
       </tr>
     </table>
     <table>
       <tr>
-        <td><img class="accountimage" src="assets/images/savings.svg" alt="Savings"></td>
-        <td class="accountname">Wells Fargo</td>
-        <td>Savings</td>
+        <td class="accounts"><img class="accountimage" src="assets/images/savings.svg" alt="Savings"></td>
+        <td class="accounts">Wells Fargo</td>
+        <td class="accounts">Savings</td>
       </tr>
     </table>
     <table>
       <tr>
-        <td><img class="accountimage" src="assets/images/credit-card.svg" alt="Credit Card"></td>
-        <td class="accountname">Amazon Credit</td>
-        <td>Credit Card</td>
+        <td class="accounts"><img class="accountimage" src="assets/images/credit-card.svg" alt="Credit Card"></td>
+        <td class="accounts">Amazon Credit</td>
+        <td class="accounts">Credit Card</td>
       </tr>
     </table>
     <table>
       <tr>
-        <td><img class="accountimage" src="assets/images/credit-card.svg" alt="Credit Card"></td>
-        <td class="accountname">Southwest Credit</td>
-        <td>Credit Card</td>
+        <td class="accounts"><img class="accountimage" src="assets/images/credit-card.svg" alt="Credit Card"></td>
+        <td class="accounts">Southwest Credit</td>
+        <td class="accounts">Credit Card</td>
     </tr>
     </table>
   </section>
   <section class="transactions">
-  <h2>Recent Transactions</h2>
-  <button class="new">New Transaction</button>
-  <table>
+    <h2>Recent Transactions</h2>
+    <button class="new">NEW TRANSACTION</button>
+    <table>
     <tr>
       <th>Date</th>
       <th class="payee">Payee</th>
@@ -133,6 +136,9 @@
       <td>-</td>
       <td>$6.00</td>
     </tr>
-  </table>
+    </table>
   </section>
+  <script src="./main.js">
+  </script>
+</body>
 </html>
