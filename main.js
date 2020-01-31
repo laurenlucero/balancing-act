@@ -1,4 +1,10 @@
 console.log("Yay I started my JavaScript")
 
-var welcome;
-var close;
+var closeWelcome = document.querySelector('.welcome');
+var closeButton = document.querySelector('.close');
+
+closeButton.addEventListener('click', welcomeDisappear);
+
+function welcomeDisappear() {
+  closeWelcome.style.display = "none";
+}
