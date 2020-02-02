@@ -1,17 +1,14 @@
+/* * {
+  border: solid;
+} */
+
 body {
   font-family: 'Biryani', sans-serif;
-  font-color: #363636;
   background-color: #F5F5F5;
 }
 
-main {
-  margin-left: 110px;
-}
-
-h1, h2 {
+h2 {
   display: inline-block;
-  margin-left: 10px;
-  margin-bottom: 0;
 }
 
 h3 {
@@ -21,16 +18,19 @@ h3 {
   width: 445px;
 }
 
-
 section {
+  display: inline-block;
+  margin: 5px;
   width: 500px;
 }
 
 button {
   background-color: #1CA3BA;
+  color: #ffffff;
   border-radius: 15px;
   padding: 10px;
-  width: 150px
+  margin: 2px;
+  width: 150px;
 }
 
 ul {
@@ -44,7 +44,6 @@ table {
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   border-radius: 5px;
   border-spacing: 0px;
-  margin-top: 0;
   margin-bottom: 10px;
   padding: 10px;
   width: 500px;
@@ -53,6 +52,21 @@ table {
 th, td {
   text-align: left;
   border-bottom: 1px solid #CCCCCC;
+}
+
+form {
+  display: inline-block;
+  margin: 20px 40px;
+}
+
+label, select, input {
+  display: inline-block;
+  width: 400px;
+  margin: 5px;
+}
+
+.dashboard {
+  margin-left: 110px;
 }
 
 .logo {
@@ -81,6 +95,7 @@ th, td {
 }
 
 .welcome {
+  display: block;
   position: relative;
 }
 
@@ -95,7 +110,7 @@ th, td {
   background-color: white;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   display: inline-block;
-  width: 120px;
+  width: 110px;
   padding: 10px;
   margin: 10px;
 }
@@ -121,13 +136,11 @@ th, td {
   bottom: 40px;
 }
 
-.transactions {
+.recent-transactions {
   background-color: white;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   display: inline-block;
   position: absolute;
-  left: 700px;
-  top: 125px;
   width: 500px;
 }
 
@@ -140,7 +153,45 @@ th, td {
   padding-right: 60px;
 }
 
-/* state */
-.is-hidden {
-  display: none;
+.transactions-button {
+  position: relative;
+  left: 25px;
+  width: 100px;
 }
+
+.white {
+  background-color: #ffffff;
+  color: #1CA3BA;
+  border: 1px solid #1CA3BA;
+}
+
+.transactions {
+  /* display: inline-block; */
+  margin-left: 110px;
+  width: 500px;
+}
+
+.transactions-page {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+}
+
+.new-transaction {
+  background-color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  left: 700px;
+  bottom: 60px;
+  vertical-align: top;
+  width: 500px;
+}
+
+.new-transaction-head {
+  margin-left: 150px;
+}
+
+/* state */
+/* .is-hidden {
+  display: none;
+} */
