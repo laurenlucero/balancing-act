@@ -21,12 +21,6 @@ h3 {
   width: 445px;
 }
 
-input {
-  position: absolute;
-  top: 40px;
-  right: 30px;
-  width: 10px;
-}
 
 section {
   width: 500px;
@@ -67,9 +61,13 @@ th, td {
   margin-bottom: 200px;
 }
 
-.menu {
+.menu1, .menu2, .menu3 {
   width: 50%;
   margin: 8px;
+}
+
+.highlight-menu {
+    border-left: 3px solid #1CA3BA;
 }
 
 .navigation {
@@ -83,6 +81,13 @@ th, td {
 
 .welcome {
   position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  width: 10px;
 }
 
 .info {
