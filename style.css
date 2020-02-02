@@ -64,6 +64,7 @@ th, td {
 .menu1, .menu2, .menu3 {
   width: 50%;
   margin: 8px;
+  outline: none;
 }
 
 .highlight-menu {
@@ -137,4 +138,9 @@ th, td {
 
 .payee {
   padding-right: 60px;
+}
+
+/* state */
+.is-hidden {
+  display: none;
 }
