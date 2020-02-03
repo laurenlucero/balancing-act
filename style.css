@@ -9,6 +9,8 @@ body {
 
 h2 {
   display: inline-block;
+  height: 43px;
+  padding-left: 10px;
 }
 
 h3 {
@@ -110,7 +112,7 @@ label, select, input {
   background-color: white;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   display: inline-block;
-  width: 110px;
+  width: 120px;
   padding: 10px;
   margin: 10px;
 }
@@ -133,7 +135,7 @@ label, select, input {
   display: inline-block;
   position: relative;
   left: 330px;
-  bottom: 40px;
+  bottom: 45px;
 }
 
 .recent-transactions {
@@ -141,7 +143,10 @@ label, select, input {
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   display: inline-block;
   position: absolute;
+  left: 700px;
+  top: 110px;
   width: 500px;
+  padding: 10px;
 }
 
 .new {
@@ -166,7 +171,6 @@ label, select, input {
 }
 
 .transactions {
-  /* display: inline-block; */
   margin-left: 110px;
   width: 500px;
 }
@@ -182,7 +186,7 @@ label, select, input {
   display: inline-block;
   position: absolute;
   left: 700px;
-  bottom: 60px;
+  top: 50px;
   vertical-align: top;
   width: 500px;
 }
@@ -190,8 +194,3 @@ label, select, input {
 .new-transaction-head {
   margin-left: 150px;
 }
-
-/* state */
-/* .is-hidden {
-  display: none;
-} */
