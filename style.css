@@ -7,6 +7,10 @@ body {
   background-color: #F5F5F5;
 }
 
+h1 {
+  padding-left: 10px;
+}
+
 h2 {
   display: inline-block;
   height: 43px;
@@ -43,7 +47,6 @@ ul {
 
 table {
   background-color: white;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
   border-radius: 5px;
   border-spacing: 0px;
   margin-bottom: 10px;
@@ -192,5 +195,5 @@ label, select, input {
 }
 
 .new-transaction-head {
-  margin-left: 150px;
+  margin-left: 140px;
 }
