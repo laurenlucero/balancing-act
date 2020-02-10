@@ -2,6 +2,14 @@
   border: solid;
 } */
 
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
   font-family: 'Biryani', sans-serif;
   background-color: #F5F5F5;
@@ -21,10 +29,11 @@ h3 {
   background-image: linear-gradient(#8ED1DC, #E3F4F6);
   display: inline-block;
   padding: 25px;
-  width: 445px;
+  width: 490px;
 }
 
 section {
+  border-radius: 5px;
   display: inline-block;
   margin: 5px;
   width: 500px;
@@ -51,7 +60,7 @@ table {
   border-spacing: 0px;
   margin-bottom: 10px;
   padding: 10px;
-  width: 500px;
+  width: 490px;
 }
 
 th, td {
@@ -100,6 +109,7 @@ label, select, input {
 }
 
 .welcome {
+  border-radius: 5px;
   display: block;
   position: relative;
 }
@@ -124,9 +134,9 @@ label, select, input {
   font-size: 10px;
 }
 
-.accounts {
- border: none;
- width: 80px;
+.accounts, .account-item {
+  border: none;
+  width: 80px;
 }
 
 .accountimage {
