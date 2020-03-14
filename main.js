@@ -1,5 +1,3 @@
-console.log("Yay I started my JavaScript")
-
 var closeWelcome = document.querySelector('.welcome');
 var closeButton = document.querySelector('.close');
 var menu1 = document.querySelector('.menu1');
@@ -9,14 +7,13 @@ var dashboard = document.querySelector('.dashboard');
 var transactions = document.querySelector('.transactions');
 
 closeButton.addEventListener('click', welcomeDisappear);
+menu1.addEventListener('click', highlightMenu1);
+menu2.addEventListener('click', highlightMenu2);
+menu3.addEventListener('click', highlightMenu3);
 
 function welcomeDisappear() {
   closeWelcome.style.display = "none";
 }
-
-menu1.addEventListener('click', highlightMenu1);
-menu2.addEventListener('click', highlightMenu2);
-menu3.addEventListener('click', highlightMenu3);
 
 function highlightMenu1() {
   menu2.classList.remove('highlight-menu');
@@ -24,8 +21,6 @@ function highlightMenu1() {
   menu1.classList.add('highlight-menu');
   dashboard.hidden = false;
   transactions.hidden = true;
-  // dashboard.classList.remove('is-hidden');
-  // transactions.classList.add('is-hidden');
 }
 
 function highlightMenu2() {
@@ -34,8 +29,6 @@ function highlightMenu2() {
   menu2.classList.add('highlight-menu');
   dashboard.hidden = true;
   transactions.hidden = false;
-  // dashboard.classList.add('is-hidden');
-  // transactions.classList.remove('is-hidden');
 }
 
 function highlightMenu3() {
